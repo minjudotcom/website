@@ -2,44 +2,56 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>우리 회사</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!--link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="container">
-    <h1>우리 회사</h1>
-    <nav>
-      <a href="#about">회사 소개</a>
-      <a href="#services">서비스</a>
-      <a href="#contact">문의</a>
-    </nav>
+
+  <header>
+    <div class="container">
+      <h1>우리 회사</h1>
+      <nav>
+        <a href="#about">회사 소개</a>
+        <a href="#services">서비스</a>
+        <a href="#contact">문의</a>
+      </nav>
+    </div>
   </header>
 
   <main class="container">
     <section id="about">
       <h2>회사 소개</h2>
-      <p>우리는 고객의 문제를 해결하는 팀입니다.</p>
+      <p>
+        우리는 고객의 문제를 빠르게 이해하고,
+        실질적인 해결책을 제시하는 팀입니다.
+      </p>
     </section>
 
     <section id="services">
       <h2>서비스</h2>
       <ul>
-        <li>컨설팅</li>
-        <li>솔루션 개발</li>
-        <li>운영 지원</li>
+        <li>IT 컨설팅</li>
+        <li>웹 / 시스템 개발</li>
+        <li>운영 및 유지보수</li>
       </ul>
     </section>
 
     <section id="contact">
       <h2>문의하기</h2>
-      <p>Email: contact@example.com</p>
-      <button id="cta">문의 남기기</button>
+      <p>궁금한 점이 있으시면 언제든지 연락 주세요.</p>
+      <button id="contactBtn">이메일 문의</button>
     </section>
   </main>
 
   <footer class="container">
-    <small>© 2026 Our Company</small>
+    <p>© 2026 우리 회사. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
