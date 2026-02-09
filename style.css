@@ -11,4 +11,7 @@ h2 { margin-top: 0; }
 button { background: var(--brand); color: white; border: 0; padding: 10px 16px; border-radius: 6px; cursor: pointer; }
 button:hover { filter: brightness(0.95); }
 footer { color: var(--muted); text-align: center; }
+body {
+  font-family: 'Noto Sans KR', system-ui, sans-serif;
+}
 ``
